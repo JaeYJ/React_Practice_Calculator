@@ -1,0 +1,56 @@
+.result {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
+  width: 755px;
+  height: 40px;
+  border: 2px solid forestgreen;
+  font-size: 30px;
+}
+
+.title {
+  margin-left: 350px;
+}
+
+table {
+  border: 2px solid forestgreen;
+  text-align: center;
+  width: 800px;
+  height: 400px;
+  font-family: 'Arial';
+  font-size: 40px;
+  border-collapse: collapse; /* remove space between table cells*/
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.operator {
+  background-color: orange;
+}
+.operator:active {
+  background-color: rgb(255, 202, 104);
+}
+
+button{
+  padding: 15px 30px; /* Adjust the padding for top/bottom and left/right of the button */
+  font-size: 50px; /* Adjust the font size */
+  background-color: forestgreen; /* Set the button background color */
+  color: white; /* Set the button text color */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Round the corners */
+  cursor: pointer; /* Change the mouse cursor on hover */
+  transition: background-color 0.3s; /* Add a transition effect for background color changes */
+  margin-left: 290px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
